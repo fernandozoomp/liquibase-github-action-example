@@ -31,3 +31,7 @@ alter table person add column state varchar(2)
 --changeset other.dev:5
 --rollback ALTER TABLE company DROP COLUMN country;
 alter table company add column country varchar(2)
+
+--changeset homer:6
+--rollback ALTER TABLE company DROP COLUMN city;
+alter table company add column city varchar(2)
